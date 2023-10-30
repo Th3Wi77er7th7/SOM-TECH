@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, input, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+<head>
+        <title>Som tech</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <style>
+           body {
+            background-image: url("../../media/examples/lizard.png");
+            background-size: contain;
+background-repeat: no-repeat;
+              background-position: right 35% bottom 45%;
+              background-repeat: no-repeat;
+              background-attachment: local, scroll;
+           }
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
